@@ -1,0 +1,21 @@
+﻿Build started 10/11/2015 20:08:01.
+     1>Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\test\QualityLevelAssigner\QualityLevelAssigner.vcxproj" on node 7 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I. /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _CONSOLE /D H264AVCVIDEOIOLIB_LIB /D H264AVCCOMMONLIB_LIB /D H264AVCDECODERLIB_LIB /D H264AVCENCODERLIB_LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\build\windows\test\QualityLevelAssigner\DebugStatic\\" /Fd".\..\..\..\build\windows\test\QualityLevelAssigner\DebugStatic\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt QualityLevel.cpp QualityLevelAssigner.cpp QualityLevelEstimation.cpp QualityLevelParameter.cpp
+         QualityLevelParameter.cpp
+         QualityLevelEstimation.cpp
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\test\qualitylevelassigner\qualitylevelestimation.cpp(421): error C2039: 'greater': is not a member of 'std'
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(17): note: see declaration of 'std'
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\test\qualitylevelassigner\qualitylevelestimation.cpp(421): error C2065: 'greater': undeclared identifier
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\test\qualitylevelassigner\qualitylevelestimation.cpp(421): error C2275: 'QualityLayer': illegal use of this type as an expression
+         k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\test\qualitylevelassigner\qualitylevelestimation.h(60): note: see declaration of 'QualityLayer'
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\test\qualitylevelassigner\qualitylevelestimation.cpp(421): error C2059: syntax error: ')'
+         QualityLevelAssigner.cpp
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\test\qualitylevelassigner\qualitylevelassigner.cpp(1051): error C2065: '_iob': undeclared identifier
+         QualityLevel.cpp
+         Generating Code...
+     1>Done Building Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\test\QualityLevelAssigner\QualityLevelAssigner.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.60

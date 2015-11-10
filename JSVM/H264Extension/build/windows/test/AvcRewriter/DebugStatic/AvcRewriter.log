@@ -1,0 +1,24 @@
+﻿Build started 10/11/2015 20:08:01.
+     1>Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\test\AvcRewriter\AvcRewriter.vcxproj" on node 8 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I. /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _CONSOLE /D H264AVCVIDEOIOLIB_LIB /D H264AVCCOMMONLIB_LIB /D H264AVCDECODERLIB_LIB /D H264AVCENCODERLIB_LIB /D SHARP_AVC_REWRITE_OUTPUT /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\build\windows\test\AvcRewriter\DebugStatic\\" /Fd".\..\..\..\build\windows\test\AvcRewriter\DebugStatic\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\H264AVCDecoderLibTest\DecoderParameter.cpp ..\H264AVCDecoderLibTest\H264AVCDecoderLibTest.cpp ..\H264AVCDecoderLibTest\H264AVCDecoderTest.cpp
+         H264AVCDecoderTest.cpp
+         H264AVCDecoderLibTest.cpp
+         DecoderParameter.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\test\AvcRewriter\.\..\..\..\build\windows\test\AvcRewriter\DebugStatic\AvcRewriterStatic.exe) does not match the Linker's OutputFile property value (K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\bin\AvcRewriterStaticd.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(AvcRewriterStatic) does not match the Linker's OutputFile property value (AvcRewriterStaticd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\..\..\bin\AvcRewriterStaticd.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\..\lib ws2_32.lib ddraw.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:".\..\..\..\build\windows\test\AvcRewriter\DebugStatic\AvcRewriterStatic.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\build\windows\test\AvcRewriter\DebugStatic\AvcRewriterStatic.lib" /MACHINE:X86 /SAFESEH .\..\..\..\build\windows\test\AvcRewriter\DebugStatic\DecoderParameter.obj
+         .\..\..\..\build\windows\test\AvcRewriter\DebugStatic\H264AVCDecoderLibTest.obj
+         .\..\..\..\build\windows\test\AvcRewriter\DebugStatic\H264AVCDecoderTest.obj
+         K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\lib\AvcRewriterLibStaticd.lib
+         K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\lib\H264AVCCommonLibStaticd.lib
+         K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\lib\H264AVCEncoderLibStaticd.lib
+         K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\lib\H264AVCVideoIoLibStaticd.lib
+         AvcRewriter.vcxproj -> K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\test\AvcRewriter\.\..\..\..\build\windows\test\AvcRewriter\DebugStatic\AvcRewriterStatic.exe
+     1>Done Building Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\test\AvcRewriter\AvcRewriter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.05

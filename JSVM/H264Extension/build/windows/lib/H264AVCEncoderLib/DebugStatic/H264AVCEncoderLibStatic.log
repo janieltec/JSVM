@@ -1,0 +1,88 @@
+﻿Build started 10/11/2015 20:07:38.
+     1>Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCEncoderLib\H264AVCEncoderLibStatic.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I. /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D H264AVCVIDEOLIB_LIB /D H264AVCCOMMONLIB_LIB /D H264AVCENCODERLIB_LIB /D SHARP_AVC_REWRITE_OUTPUT /D USE_NAMESPACE_H264AVC /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"H264AVCEncoderLib.h" /Fp".\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\H264AVCEncoderLibStatic.pch" /Fo".\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\\" /Fd".\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\H264AVCEncoderLibStatic.pdb" /Gd /TP /analyze- /errorReport:prompt H264AVCEncoderLib.cpp
+         H264AVCEncoderLib.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I. /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D H264AVCVIDEOLIB_LIB /D H264AVCCOMMONLIB_LIB /D H264AVCENCODERLIB_LIB /D SHARP_AVC_REWRITE_OUTPUT /D USE_NAMESPACE_H264AVC /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\\" /Fd".\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\H264AVCEncoderLibStatic.pdb" /Gd /TP /analyze- /errorReport:prompt BitCounter.cpp BitWriteBuffer.cpp CabacWriter.cpp CabaEncoder.cpp CodingParameter.cpp ControlMngH264AVCEncoder.cpp CreaterH264AVCEncoder.cpp Distortion.cpp GOPEncoder.cpp H264AVCEncoder.cpp InputPicBuffer.cpp IntraPredictionSearch.cpp MbCoder.cpp MbEncoder.cpp MbTempData.cpp MotionEstimation.cpp MotionEstimationCost.cpp MotionEstimationQuarterPel.cpp NalUnitEncoder.cpp PicEncoder.cpp RateCtlBase.cpp RateCtlQuadratic.cpp RateDistortion.cpp RecPicBuffer.cpp Scheduler.cpp SequenceStructure.cpp SliceEncoder.cpp UvlcWriter.cpp
+         UvlcWriter.cpp
+         SliceEncoder.cpp
+         SequenceStructure.cpp
+         Scheduler.cpp
+         RecPicBuffer.cpp
+         RateDistortion.cpp
+         RateCtlQuadratic.cpp
+         RateCtlBase.cpp
+         PicEncoder.cpp
+         NalUnitEncoder.cpp
+         MotionEstimationQuarterPel.cpp
+         MotionEstimationCost.cpp
+         MotionEstimation.cpp
+         MbTempData.cpp
+         MbEncoder.cpp
+     1>MbEncoder.cpp(4389): warning C4838: conversion from 'int' to 'UInt' requires a narrowing conversion
+         MbCoder.cpp
+         IntraPredictionSearch.cpp
+         InputPicBuffer.cpp
+         H264AVCEncoder.cpp
+     1>H264AVCEncoder.cpp(787): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+         GOPEncoder.cpp
+     1>GOPEncoder.cpp(417): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>GOPEncoder.cpp(779): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>GOPEncoder.cpp(788): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+     1>GOPEncoder.cpp(3746): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>GOPEncoder.cpp(4038): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+         Generating Code...
+         Compiling...
+         Distortion.cpp
+         CreaterH264AVCEncoder.cpp
+         ControlMngH264AVCEncoder.cpp
+         CodingParameter.cpp
+         CabaEncoder.cpp
+         CabacWriter.cpp
+         BitWriteBuffer.cpp
+         BitCounter.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCEncoderLib\.\..\..\..\..\..\lib\H264AVCEncoderLibStatic.lib) does not match the Library's OutputFile property value (K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\lib\H264AVCEncoderLibStaticd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1359,5): warning MSB8012: TargetName(H264AVCEncoderLibStatic) does not match the Library's OutputFile property value (H264AVCEncoderLibStaticd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\..\..\..\lib\H264AVCEncoderLibStaticd.lib" /NOLOGO .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\BitCounter.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\BitWriteBuffer.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\CabacWriter.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\CabaEncoder.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\CodingParameter.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\ControlMngH264AVCEncoder.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\CreaterH264AVCEncoder.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\Distortion.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\GOPEncoder.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\H264AVCEncoder.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\H264AVCEncoderLib.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\InputPicBuffer.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\IntraPredictionSearch.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\MbCoder.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\MbEncoder.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\MbTempData.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\MotionEstimation.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\MotionEstimationCost.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\MotionEstimationQuarterPel.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\NalUnitEncoder.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\PicEncoder.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\RateCtlBase.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\RateCtlQuadratic.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\RateDistortion.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\RecPicBuffer.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\Scheduler.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\SequenceStructure.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\SliceEncoder.obj
+         .\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\UvlcWriter.obj
+         H264AVCEncoderLibStatic.vcxproj -> K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCEncoderLib\.\..\..\..\..\..\lib\H264AVCEncoderLibStatic.lib
+     1>Done Building Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCEncoderLib\H264AVCEncoderLibStatic.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.11

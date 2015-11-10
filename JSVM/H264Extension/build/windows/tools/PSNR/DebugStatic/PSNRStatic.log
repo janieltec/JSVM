@@ -1,0 +1,27 @@
+﻿Build started 10/11/2015 20:07:39.
+     1>Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\tools\PSNR\PSNRStatic.vcxproj" on node 6 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\build\windows\tools\PSNR\DebugStatic\\" /Fd".\..\..\..\build\windows\tools\PSNR\DebugStatic\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(268): error C3688: invalid literal suffix 'OUT'; literal operator or literal operator template 'operator ""OUT' not found
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(268): error C2664: 'int fprintf(FILE *const ,const char *const ,...)': cannot convert argument 2 from 'unsigned int' to 'const char *const '
+         k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(268): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(280): error C3688: invalid literal suffix 'OUT'; literal operator or literal operator template 'operator ""OUT' not found
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(281): error C3688: invalid literal suffix 'OUT'; literal operator or literal operator template 'operator ""OUT' not found
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(285): error C3688: invalid literal suffix 'OUT'; literal operator or literal operator template 'operator ""OUT' not found
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(285): error C2664: 'int fprintf(FILE *const ,const char *const ,...)': cannot convert argument 2 from 'int' to 'const char *const '
+         k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(285): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(286): error C3688: invalid literal suffix 'OUT'; literal operator or literal operator template 'operator ""OUT' not found
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(286): error C2664: 'int fprintf(FILE *const ,const char *const ,...)': cannot convert argument 2 from 'int' to 'const char *const '
+         k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(286): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(291): error C3688: invalid literal suffix 'OUT'; literal operator or literal operator template 'operator ""OUT' not found
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(291): error C2664: 'int fprintf(FILE *const ,const char *const ,...)': cannot convert argument 2 from 'int' to 'const char *const '
+         k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(291): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(292): error C3688: invalid literal suffix 'OUT'; literal operator or literal operator template 'operator ""OUT' not found
+     1>k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(292): error C2664: 'int fprintf(FILE *const ,const char *const ,...)': cannot convert argument 2 from 'int' to 'const char *const '
+         k:\downloads\pesquisas\jsvm_9_18\jsvm_9_18\jsvm\h264extension\src\tools\psnr\main.cpp(292): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>Done Building Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\tools\PSNR\PSNRStatic.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.40

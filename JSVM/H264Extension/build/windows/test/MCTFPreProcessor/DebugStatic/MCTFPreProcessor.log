@@ -1,0 +1,28 @@
+﻿Build started 10/11/2015 20:08:01.
+     1>Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\test\MCTFPreProcessor\MCTFPreProcessor.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I. /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _CONSOLE /D H264AVCVIDEOIOLIB_LIB /D H264AVCCOMMONLIB_LIB /D H264AVCENCODERLIB_LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\build\windows\test\MCTFPreProcessor\DebugStatic\\" /Fd".\..\..\..\build\windows\test\MCTFPreProcessor\DebugStatic\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MCTF.cpp MCTFPreProcessor.cpp MCTFPreProcessorTest.cpp PreProcessor.cpp PreProcessorParameter.cpp
+         PreProcessorParameter.cpp
+         PreProcessor.cpp
+         MCTFPreProcessorTest.cpp
+         MCTFPreProcessor.cpp
+         MCTF.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\test\MCTFPreProcessor\.\..\..\..\build\windows\test\MCTFPreProcessor\DebugStatic\MCTFPreProcessor.exe) does not match the Linker's OutputFile property value (K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\bin\MCTFPreProcessorStaticd.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(MCTFPreProcessor) does not match the Linker's OutputFile property value (MCTFPreProcessorStaticd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\..\..\bin\MCTFPreProcessorStaticd.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\..\lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:".\..\..\..\build\windows\test\MCTFPreProcessor\DebugStatic\MCTFPreProcessor.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\build\windows\test\MCTFPreProcessor\DebugStatic\MCTFPreProcessor.lib" /MACHINE:X86 /SAFESEH .\..\..\..\build\windows\test\MCTFPreProcessor\DebugStatic\MCTF.obj
+         .\..\..\..\build\windows\test\MCTFPreProcessor\DebugStatic\MCTFPreProcessor.obj
+         .\..\..\..\build\windows\test\MCTFPreProcessor\DebugStatic\MCTFPreProcessorTest.obj
+         .\..\..\..\build\windows\test\MCTFPreProcessor\DebugStatic\PreProcessor.obj
+         .\..\..\..\build\windows\test\MCTFPreProcessor\DebugStatic\PreProcessorParameter.obj
+         K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\lib\H264AVCCommonLibStaticd.lib
+         K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\lib\H264AVCEncoderLibStaticd.lib
+         K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\lib\H264AVCVideoIoLibStaticd.lib
+     1>MCTF.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         MCTFPreProcessor.vcxproj -> K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\test\MCTFPreProcessor\.\..\..\..\build\windows\test\MCTFPreProcessor\DebugStatic\MCTFPreProcessor.exe
+     1>Done Building Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\test\MCTFPreProcessor\MCTFPreProcessor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.06

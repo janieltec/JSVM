@@ -1,0 +1,43 @@
+﻿Build started 10/11/2015 20:07:39.
+     1>Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\AvcRewriterLib\AvcRewriterLibStatic.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I. /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D H264AVCCOMMONLIB_LIB /D H264AVCDECODERLIB_LIB /D H264AVCENCODERLIB_LIB /D SHARP_AVC_REWRITE_OUTPUT /D USE_NAMESPACE_H264AVC /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\\" /Fd".\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\AvcRewriterLibStatic.pdb" /Gd /TP /analyze- /errorReport:prompt ..\H264AVCDecoderLib\BitReadBuffer.cpp ..\H264AVCDecoderLib\CabacReader.cpp ..\H264AVCDecoderLib\CabaDecoder.cpp ..\H264AVCDecoderLib\ControlMngH264AVCDecoder.cpp ..\H264AVCDecoderLib\CreaterH264AVCDecoder.cpp ..\H264AVCDecoderLib\GOPDecoder.cpp ..\H264AVCDecoderLib\H264AVCDecoder.cpp ..\H264AVCDecoderLib\H264AVCDecoderLib.cpp ..\H264AVCDecoderLib\MbDecoder.cpp ..\H264AVCDecoderLib\MbParser.cpp ..\H264AVCDecoderLib\NalUnitParser.cpp ..\H264AVCDecoderLib\SliceDecoder.cpp ..\H264AVCDecoderLib\SliceReader.cpp ..\H264AVCDecoderLib\UvlcReader.cpp
+         UvlcReader.cpp
+         SliceReader.cpp
+         SliceDecoder.cpp
+         NalUnitParser.cpp
+         MbParser.cpp
+         MbDecoder.cpp
+         H264AVCDecoderLib.cpp
+         H264AVCDecoder.cpp
+         GOPDecoder.cpp
+         CreaterH264AVCDecoder.cpp
+         ControlMngH264AVCDecoder.cpp
+         CabaDecoder.cpp
+         CabacReader.cpp
+         BitReadBuffer.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\AvcRewriterLib\.\..\..\..\..\..\lib\AvcRewriterLibStatic.lib) does not match the Library's OutputFile property value (K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\lib\AvcRewriterLibStaticd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1359,5): warning MSB8012: TargetName(AvcRewriterLibStatic) does not match the Library's OutputFile property value (AvcRewriterLibStaticd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\..\..\..\lib\AvcRewriterLibStaticd.lib" /NOLOGO .\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\BitReadBuffer.obj
+         .\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\CabacReader.obj
+         .\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\CabaDecoder.obj
+         .\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\ControlMngH264AVCDecoder.obj
+         .\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\CreaterH264AVCDecoder.obj
+         .\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\GOPDecoder.obj
+         .\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\H264AVCDecoder.obj
+         .\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\H264AVCDecoderLib.obj
+         .\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\MbDecoder.obj
+         .\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\MbParser.obj
+         .\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\NalUnitParser.obj
+         .\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\SliceDecoder.obj
+         .\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\SliceReader.obj
+         .\..\..\..\build\windows\lib\AvcRewriterLib\DebugStatic\UvlcReader.obj
+     1>H264AVCDecoderLib.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         AvcRewriterLibStatic.vcxproj -> K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\AvcRewriterLib\.\..\..\..\..\..\lib\AvcRewriterLibStatic.lib
+     1>Done Building Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\AvcRewriterLib\AvcRewriterLibStatic.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.30

@@ -1,0 +1,139 @@
+﻿Build started 10/11/2015 20:07:38.
+     1>Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCCommonLib\H264AVCCommonLibStatic.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I. /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D H264AVCVIDEOLIB_LIB /D H264AVCCOMMONLIB_LIB /D USE_NAMESPACE_H264AVC /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"H264AVCCommonLib.h" /Fp".\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\H264AVCCommonLibStatic.pch" /Fo".\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\\" /Fd".\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\H264AVCCommonLibStatic.pdb" /Gd /TP /analyze- /errorReport:prompt H264AVCCommonLib.cpp
+         H264AVCCommonLib.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I. /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D H264AVCVIDEOLIB_LIB /D H264AVCCOMMONLIB_LIB /D USE_NAMESPACE_H264AVC /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\\" /Fd".\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\H264AVCCommonLibStatic.pdb" /Gd /TP /analyze- /errorReport:prompt CabacContextModel.cpp CabacContextModel2DBuffer.cpp CFMO.cpp DownConvert.cpp Frame.cpp Hrd.cpp IntraPrediction.cpp LoopFilter.cpp MbData.cpp MbDataAccess.cpp MbDataCtrl.cpp MbDataStruct.cpp MbMvData.cpp MbTransformCoeffs.cpp MotionCompensation.cpp MotionVectorCalculation.cpp Mv.cpp ParameterSetMng.cpp PictureParameterSet.cpp PocCalculator.cpp Quantizer.cpp QuarterPelFilter.cpp ReconstructionBypass.cpp ResizeParameters.cpp SampleWeighting.cpp ScalingMatrix.cpp Sei.cpp SequenceParameterSet.cpp SliceHeader.cpp SliceHeaderBase.cpp Tables.cpp TraceFile.cpp Transform.cpp Vui.cpp YuvBufferCtrl.cpp YuvMbBuffer.cpp YuvPicBuffer.cpp
+         YuvPicBuffer.cpp
+         YuvMbBuffer.cpp
+         YuvBufferCtrl.cpp
+         Vui.cpp
+         Transform.cpp
+         TraceFile.cpp
+     1>TraceFile.cpp(24): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>TraceFile.cpp(28): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>TraceFile.cpp(32): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>TraceFile.cpp(36): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>TraceFile.cpp(38): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>TraceFile.cpp(250): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>TraceFile.cpp(262): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>TraceFile.cpp(273): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>TraceFile.cpp(288): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>TraceFile.cpp(341): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(255): note: see declaration of 'strncat'
+     1>TraceFile.cpp(342): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(255): note: see declaration of 'strncat'
+     1>TraceFile.cpp(352): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>TraceFile.cpp(362): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>TraceFile.cpp(371): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(255): note: see declaration of 'strncat'
+     1>TraceFile.cpp(380): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>TraceFile.cpp(390): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>TraceFile.cpp(391): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(255): note: see declaration of 'strncat'
+     1>TraceFile.cpp(401): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>TraceFile.cpp(402): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(255): note: see declaration of 'strncat'
+     1>TraceFile.cpp(412): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>TraceFile.cpp(413): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(255): note: see declaration of 'strncat'
+     1>TraceFile.cpp(424): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+         Tables.cpp
+         SliceHeaderBase.cpp
+         SliceHeader.cpp
+         SequenceParameterSet.cpp
+         Sei.cpp
+         ScalingMatrix.cpp
+         SampleWeighting.cpp
+         ResizeParameters.cpp
+     1>ResizeParameters.cpp(20): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+         ReconstructionBypass.cpp
+         QuarterPelFilter.cpp
+         Quantizer.cpp
+         PocCalculator.cpp
+         PictureParameterSet.cpp
+         ParameterSetMng.cpp
+         Generating Code...
+         Compiling...
+         Mv.cpp
+         MotionVectorCalculation.cpp
+         MotionCompensation.cpp
+         MbTransformCoeffs.cpp
+         MbMvData.cpp
+         MbDataStruct.cpp
+         MbDataCtrl.cpp
+         MbDataAccess.cpp
+         MbData.cpp
+         LoopFilter.cpp
+         IntraPrediction.cpp
+         Hrd.cpp
+         Frame.cpp
+         DownConvert.cpp
+         CFMO.cpp
+         CabacContextModel2DBuffer.cpp
+         CabacContextModel.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCCommonLib\.\..\..\..\..\..\lib\H264AVCCommonLibStatic.lib) does not match the Library's OutputFile property value (K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\lib\H264AVCCommonLibStaticd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1359,5): warning MSB8012: TargetName(H264AVCCommonLibStatic) does not match the Library's OutputFile property value (H264AVCCommonLibStaticd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\..\..\..\lib\H264AVCCommonLibStaticd.lib" /NOLOGO .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\CabacContextModel.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\CabacContextModel2DBuffer.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\CFMO.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\DownConvert.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\Frame.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\H264AVCCommonLib.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\Hrd.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\IntraPrediction.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\LoopFilter.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\MbData.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\MbDataAccess.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\MbDataCtrl.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\MbDataStruct.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\MbMvData.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\MbTransformCoeffs.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\MotionCompensation.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\MotionVectorCalculation.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\Mv.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\ParameterSetMng.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\PictureParameterSet.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\PocCalculator.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\Quantizer.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\QuarterPelFilter.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\ReconstructionBypass.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\ResizeParameters.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\SampleWeighting.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\ScalingMatrix.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\Sei.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\SequenceParameterSet.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\SliceHeader.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\SliceHeaderBase.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\Tables.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\TraceFile.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\Transform.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\Vui.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\YuvBufferCtrl.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\YuvMbBuffer.obj
+         .\..\..\..\build\windows\lib\H264AVCCommonLib\DebugStatic\YuvPicBuffer.obj
+         H264AVCCommonLibStatic.vcxproj -> K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCCommonLib\.\..\..\..\..\..\lib\H264AVCCommonLibStatic.lib
+     1>Done Building Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCCommonLib\H264AVCCommonLibStatic.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.37

@@ -1,0 +1,43 @@
+﻿Build started 10/11/2015 20:07:39.
+     1>Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCDecoderLib\H264AVCDecoderLibStatic.vcxproj" on node 7 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I. /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D H264AVCCOMMONLIB_LIB /D H264AVCDECODERLIB_LIB /D USE_NAMESPACE_H264AVC /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"H264AVCDecoderLib.h" /Fp".\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\H264AVCDecoderLibStatic.pch" /Fo".\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\\" /Fd".\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\H264AVCDecoderLibStatic.pdb" /Gd /TP /analyze- /errorReport:prompt H264AVCDecoderLib.cpp
+         H264AVCDecoderLib.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I. /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D H264AVCCOMMONLIB_LIB /D H264AVCDECODERLIB_LIB /D USE_NAMESPACE_H264AVC /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\\" /Fd".\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\H264AVCDecoderLibStatic.pdb" /Gd /TP /analyze- /errorReport:prompt BitReadBuffer.cpp CabacReader.cpp CabaDecoder.cpp ControlMngH264AVCDecoder.cpp CreaterH264AVCDecoder.cpp GOPDecoder.cpp H264AVCDecoder.cpp MbDecoder.cpp MbParser.cpp NalUnitParser.cpp SliceDecoder.cpp SliceReader.cpp UvlcReader.cpp
+         UvlcReader.cpp
+         SliceReader.cpp
+         SliceDecoder.cpp
+         NalUnitParser.cpp
+         MbParser.cpp
+         MbDecoder.cpp
+         H264AVCDecoder.cpp
+         GOPDecoder.cpp
+         CreaterH264AVCDecoder.cpp
+         ControlMngH264AVCDecoder.cpp
+         CabaDecoder.cpp
+         CabacReader.cpp
+         BitReadBuffer.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCDecoderLib\.\..\..\..\..\..\lib\H264AVCDecoderLibStatic.lib) does not match the Library's OutputFile property value (K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\lib\H264AVCDecoderLibStaticd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1359,5): warning MSB8012: TargetName(H264AVCDecoderLibStatic) does not match the Library's OutputFile property value (H264AVCDecoderLibStaticd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\..\..\..\lib\H264AVCDecoderLibStaticd.lib" /NOLOGO .\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\BitReadBuffer.obj
+         .\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\CabacReader.obj
+         .\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\CabaDecoder.obj
+         .\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\ControlMngH264AVCDecoder.obj
+         .\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\CreaterH264AVCDecoder.obj
+         .\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\GOPDecoder.obj
+         .\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\H264AVCDecoder.obj
+         .\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\H264AVCDecoderLib.obj
+         .\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\MbDecoder.obj
+         .\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\MbParser.obj
+         .\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\NalUnitParser.obj
+         .\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\SliceDecoder.obj
+         .\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\SliceReader.obj
+         .\..\..\..\build\windows\lib\H264AVCDecoderLib\DebugStatic\UvlcReader.obj
+         H264AVCDecoderLibStatic.vcxproj -> K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCDecoderLib\.\..\..\..\..\..\lib\H264AVCDecoderLibStatic.lib
+     1>Done Building Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCDecoderLib\H264AVCDecoderLibStatic.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.16

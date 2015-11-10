@@ -1,0 +1,19 @@
+﻿Build started 10/11/2015 20:07:40.
+     1>Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\tools\DownConvert\DownConvertStatic.vcxproj" on node 9 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _CONSOLE /D DOWN_CONVERT_STATIC /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\build\windows\tools\DownConvert\DebugStatic\\" /Fd".\..\..\..\build\windows\tools\DownConvert\DebugStatic\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\lib\H264AVCCommonLib\DownConvert.cpp main.cpp
+         main.cpp
+         DownConvert.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\tools\DownConvert\.\..\..\..\build\windows\tools\DownConvert\DebugStatic\DownConvertStatic.exe) does not match the Linker's OutputFile property value (K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\bin\DownConvertStaticd.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(DownConvertStatic) does not match the Linker's OutputFile property value (DownConvertStaticd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\..\..\bin\DownConvertStaticd.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:".\..\..\..\build\windows\tools\DownConvert\DebugStatic\DownConvertStatic.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\build\windows\tools\DownConvert\DebugStatic\DownConvertStatic.lib" /MACHINE:X86 /SAFESEH .\..\..\..\build\windows\tools\DownConvert\DebugStatic\DownConvert.obj
+         .\..\..\..\build\windows\tools\DownConvert\DebugStatic\main.obj
+     1>DownConvert.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         DownConvertStatic.vcxproj -> K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\tools\DownConvert\.\..\..\..\build\windows\tools\DownConvert\DebugStatic\DownConvertStatic.exe
+     1>Done Building Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\tools\DownConvert\DownConvertStatic.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.09

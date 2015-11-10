@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{2DEB1FC0-E264-49D8-A534-43E9ABB400CC}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\..\..\..\..\..\lib\</OutDir>
+    <IntDir>.\..\..\..\build\windows\lib\H264AVCEncoderLib\ReleaseStatic\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\..\..\..\..\..\lib\</OutDir>
+    <IntDir>.\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>..\..\..\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_LIB;H264AVCVIDEOLIB_LIB;H264AVCCOMMONLIB_LIB;H264AVCENCODERLIB_LIB;SHARP_AVC_REWRITE_OUTPUT;EXCEL=1;USE_NAMESPACE_H264AVC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\..\..\..\build\windows\lib\H264AVCEncoderLib\ReleaseStatic\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\..\..\..\build\windows\lib\H264AVCEncoderLib\ReleaseStatic\H264AVCEncoderLibStatic.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\..\..\..\build\windows\lib\H264AVCEncoderLib\ReleaseStatic\</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\build\windows\lib\H264AVCEncoderLib\ReleaseStatic\</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0407</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\..\..\..\lib\H264AVCEncoderLibStatic.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\..\..\..\lib\H264AVCEncoderLibStatic.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <AdditionalIncludeDirectories>..\..\..\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_LIB;H264AVCVIDEOLIB_LIB;H264AVCCOMMONLIB_LIB;H264AVCENCODERLIB_LIB;SHARP_AVC_REWRITE_OUTPUT;USE_NAMESPACE_H264AVC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\H264AVCEncoderLibStatic.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\build\windows\lib\H264AVCEncoderLib\DebugStatic\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0407</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\..\..\..\lib\H264AVCEncoderLibStatic.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\..\..\..\..\lib\H264AVCEncoderLibStaticd.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BitCounter.cpp" />
+    <ClCompile Include="BitWriteBuffer.cpp" />
+    <ClCompile Include="CabacWriter.cpp" />
+    <ClCompile Include="CabaEncoder.cpp" />
+    <ClCompile Include="CodingParameter.cpp" />
+    <ClCompile Include="ControlMngH264AVCEncoder.cpp" />
+    <ClCompile Include="CreaterH264AVCEncoder.cpp" />
+    <ClCompile Include="Distortion.cpp" />
+    <ClCompile Include="GOPEncoder.cpp" />
+    <ClCompile Include="H264AVCEncoder.cpp" />
+    <ClCompile Include="H264AVCEncoderLib.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H264AVCEncoderLib.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H264AVCEncoderLib.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="InputPicBuffer.cpp" />
+    <ClCompile Include="IntraPredictionSearch.cpp" />
+    <ClCompile Include="MbCoder.cpp" />
+    <ClCompile Include="MbEncoder.cpp" />
+    <ClCompile Include="MbTempData.cpp" />
+    <ClCompile Include="MotionEstimation.cpp" />
+    <ClCompile Include="MotionEstimationCost.cpp" />
+    <ClCompile Include="MotionEstimationQuarterPel.cpp" />
+    <ClCompile Include="NalUnitEncoder.cpp" />
+    <ClCompile Include="PicEncoder.cpp" />
+    <ClCompile Include="RateCtlBase.cpp" />
+    <ClCompile Include="RateCtlQuadratic.cpp" />
+    <ClCompile Include="RateDistortion.cpp" />
+    <ClCompile Include="RecPicBuffer.cpp" />
+    <ClCompile Include="Scheduler.cpp" />
+    <ClCompile Include="SequenceStructure.cpp" />
+    <ClCompile Include="SliceEncoder.cpp" />
+    <ClCompile Include="UvlcWriter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\CodingParameter.h" />
+    <ClInclude Include="..\..\..\include\CreaterH264AVCEncoder.h" />
+    <ClInclude Include="..\..\..\include\H264AVCEncoderLib.h" />
+    <ClInclude Include="BitCounter.h" />
+    <ClInclude Include="BitWriteBuffer.h" />
+    <ClInclude Include="BitWriteBufferIf.h" />
+    <ClInclude Include="CabacWriter.h" />
+    <ClInclude Include="CabaEncoder.h" />
+    <ClInclude Include="ControlMngH264AVCEncoder.h" />
+    <ClInclude Include="Distortion.h" />
+    <ClInclude Include="DistortionIf.h" />
+    <ClInclude Include="GOPEncoder.h" />
+    <ClInclude Include="H264AVCEncoder.h" />
+    <ClInclude Include="InputPicBuffer.h" />
+    <ClInclude Include="IntraPredictionSearch.h" />
+    <ClInclude Include="MbCoder.h" />
+    <ClInclude Include="MbEncoder.h" />
+    <ClInclude Include="MbSymbolWriteIf.h" />
+    <ClInclude Include="MbTempData.h" />
+    <ClInclude Include="MotionEstimation.h" />
+    <ClInclude Include="MotionEstimationCost.h" />
+    <ClInclude Include="MotionEstimationQuarterPel.h" />
+    <ClInclude Include="NalUnitEncoder.h" />
+    <ClInclude Include="PicEncoder.h" />
+    <ClInclude Include="RateDistortion.h" />
+    <ClInclude Include="RateDistortionIf.h" />
+    <ClInclude Include="RecPicBuffer.h" />
+    <ClInclude Include="Scheduler.h" />
+    <ClInclude Include="SequenceStructure.h" />
+    <ClInclude Include="SliceEncoder.h" />
+    <ClInclude Include="UvlcWriter.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

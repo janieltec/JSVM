@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fd076542-48ce-426e-832e-aee8887f2de5}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b5a998c6-0a83-41f0-a9ed-a686350704b1}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e5f29e74-249e-4fd9-a1e9-78bf55b3a874}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EncoderCodingParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H264AVCEncoderLibTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H264AVCEncoderTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EncoderCodingParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H264AVCEncoderLibTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H264AVCEncoderTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\data\encoder.cfg" />
+    <CustomBuild Include="..\..\..\data\layer0.cfg" />
+    <CustomBuild Include="..\..\..\data\layer1.cfg" />
+    <CustomBuild Include="..\..\..\data\layer2.cfg" />
+    <CustomBuild Include="..\..\..\data\layer3.cfg" />
+    <CustomBuild Include="..\..\..\data\layer4.cfg" />
+    <CustomBuild Include="..\..\..\data\layer5.cfg" />
+  </ItemGroup>
+</Project>

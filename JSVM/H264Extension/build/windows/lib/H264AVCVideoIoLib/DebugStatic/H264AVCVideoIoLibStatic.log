@@ -1,0 +1,39 @@
+﻿Build started 10/11/2015 20:07:38.
+     1>Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCVideoIoLib\H264AVCVideoIoLibStatic.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I. /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D H264AVCVIDEOIOLIB_LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"H264AVCVideoIoLib.h" /Fp".\..\..\..\build\windows\lib\H264AVCVideoIoLib\DebugStatic\H264AVCVideoIoLibStatic.pch" /Fo".\..\..\..\build\windows\lib\H264AVCVideoIoLib\DebugStatic\\" /Fd".\..\..\..\build\windows\lib\H264AVCVideoIoLib\DebugStatic\H264AVCVideoIoLibStatic.pdb" /Gd /TP /analyze- /errorReport:prompt H264AVCVideoIoLib.cpp
+         H264AVCVideoIoLib.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I. /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D H264AVCVIDEOIOLIB_LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\build\windows\lib\H264AVCVideoIoLib\DebugStatic\\" /Fd".\..\..\..\build\windows\lib\H264AVCVideoIoLib\DebugStatic\H264AVCVideoIoLibStatic.pdb" /Gd /TP /analyze- /errorReport:prompt LargeFile.cpp ReadBitstreamFile.cpp ReadYuvFile.cpp WriteBitstreamToFile.cpp WriteYuvToFile.cpp
+         WriteYuvToFile.cpp
+         WriteBitstreamToFile.cpp
+     1>WriteBitstreamToFile.cpp(70): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdlib.h(1316): note: see declaration of 'itoa'
+         ReadYuvFile.cpp
+         ReadBitstreamFile.cpp
+         LargeFile.cpp
+     1>LargeFile.cpp(37): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_io.h(457): note: see declaration of 'close'
+     1>LargeFile.cpp(77): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_io.h(514): note: see declaration of 'open'
+     1>LargeFile.cpp(122): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_io.h(457): note: see declaration of 'close'
+     1>LargeFile.cpp(174): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_io.h(521): note: see declaration of 'read'
+     1>LargeFile.cpp(221): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_io.h(556): note: see declaration of 'write'
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCVideoIoLib\.\..\..\..\..\..\lib\H264AVCVideoIoLibStatic.lib) does not match the Library's OutputFile property value (K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\lib\H264AVCVideoIoLibStaticd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1359,5): warning MSB8012: TargetName(H264AVCVideoIoLibStatic) does not match the Library's OutputFile property value (H264AVCVideoIoLibStaticd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\..\..\..\lib\H264AVCVideoIoLibStaticd.lib" /NOLOGO .\..\..\..\build\windows\lib\H264AVCVideoIoLib\DebugStatic\H264AVCVideoIoLib.obj
+         .\..\..\..\build\windows\lib\H264AVCVideoIoLib\DebugStatic\LargeFile.obj
+         .\..\..\..\build\windows\lib\H264AVCVideoIoLib\DebugStatic\ReadBitstreamFile.obj
+         .\..\..\..\build\windows\lib\H264AVCVideoIoLib\DebugStatic\ReadYuvFile.obj
+         .\..\..\..\build\windows\lib\H264AVCVideoIoLib\DebugStatic\WriteBitstreamToFile.obj
+         .\..\..\..\build\windows\lib\H264AVCVideoIoLib\DebugStatic\WriteYuvToFile.obj
+         H264AVCVideoIoLibStatic.vcxproj -> K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCVideoIoLib\.\..\..\..\..\..\lib\H264AVCVideoIoLibStatic.lib
+     1>Done Building Project "K:\Downloads\Pesquisas\jsvm_9_18\jsvm_9_18\JSVM\H264Extension\src\lib\H264AVCVideoIoLib\H264AVCVideoIoLibStatic.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.87
