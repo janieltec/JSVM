@@ -1,3 +1,3 @@
 objects/main.d.o: \
- /home/mininet/jsvm_9_18/JSVM/H264Extension/build/linux/tools/YUVCompare/../../../../src/tools/YUVCompare/main.cpp
- /home/mininet/jsvm_9_18/JSVM/H264Extension/build/linux/tools/YUVCompare/../../../../src/tools/YUVCompare/main.cpp :
+ /home/ubuntu/JSVM/JSVM/H264Extension/build/linux/tools/YUVCompare/../../../../src/tools/YUVCompare/main.cpp
+ /home/ubuntu/JSVM/JSVM/H264Extension/build/linux/tools/YUVCompare/../../../../src/tools/YUVCompare/main.cpp :
